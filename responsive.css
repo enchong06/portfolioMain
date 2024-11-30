@@ -1,0 +1,30 @@
+@media (max-width: 767px){
+.body{
+    margin: 0;
+    padding: 0;
+}
+.main .right img{
+    width: 50%;
+    margin-left: 160px;
+}
+
+.about .container{
+display: flex;
+margin-left: 260px;
+margin-right: 230px;
+justify-content: center;
+padding-bottom: 15px;
+padding-top: 15px;
+}
+.about .right p{
+  text-wrap: balance;
+  font-size: 10px;
+}
+.about .right h1{
+  text-align: center;
+  font-size: 20px;
+}
+.about .left img{
+display: none;
+}
+}

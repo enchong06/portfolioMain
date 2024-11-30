@@ -111,6 +111,7 @@ body {
     margin-right: 60px;
 }
 
+/* ABOUT */
 .about{
     align-items: center;
     display: flex;
@@ -543,12 +544,68 @@ textarea.input{
     font-weight: 500;
 }
 
+/* FOOTER SECTION */
 .footer-container{
     width: 100%;
     height: 100%;
     background: #5C162E;
-    padding: 80px;
+    padding: 60px;
 }
 .footer-text{
     color: #fff;
+    font-size: 14px;
+}
+.socmed-links ul li{
+    list-style: none;
+    display: inline;
+}
+.socmed-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+}
+
+
+/* MEDIA QUERY (RESPONSIVE) */
+
+@media(width < 768px){
+    body{
+        margin: 0;
+        padding: 0;
+
+    }
+
+.navbar a .resumebtn{
+    display: none;
+    }
+.navbar ul li{
+    display: none;
+}
+.navbar{
+    background-color: #110E1B;
+}
+
+    /* Image */
+.main .stripes{
+    display: none;
+    }
+
+ .right img{
+    margin-left: 20px;
+    
+}
+/* Main Text */
+.main .cspace h4{
+margin-top: 150%;
+margin-left: -50%;
+text-align: center;
+justify-content: center;
+display: block;
+}
+.main .cspace h4.junior{
+ display: none;
+}
+
 }
