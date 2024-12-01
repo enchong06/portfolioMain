@@ -4,27 +4,54 @@
     padding: 0;
 }
 .main .right img{
-    width: 50%;
+    width: 70%;
     margin-left: 160px;
+}
+.main .cspace h4{
+  font-size: 50px;
+  display: none;
 }
 
 .about .container{
 display: flex;
-margin-left: 260px;
-margin-right: 230px;
-justify-content: center;
+margin-left: 80px;
+margin-right: 260px;
 padding-bottom: 15px;
 padding-top: 15px;
+padding-left: 20px;
+padding-right: 60px;
+}
+.about .right{
+  display: flex;
+  justify-content: center;
 }
 .about .right p{
-  text-wrap: balance;
+  padding: 40px;
+  text-wrap: wrap;
   font-size: 10px;
 }
 .about .right h1{
+
   text-align: center;
   font-size: 20px;
 }
 .about .left img{
 display: none;
 }
+
+/* EXP AND SKILL */
+.skill .exptitle{
+  margin-right: 100px;
+}
+
+/* CODING SKILLS */
+.frontend-container{
+  margin-right: 80px;
+}
+.frontend-detail{
+  margin-right: 100px;
+}
+
+
+
 }
